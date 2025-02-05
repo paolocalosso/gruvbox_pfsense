@@ -208,6 +208,9 @@ tr.disabled a {
 .navbar {
   margin-bottom: 10px;
   background-color: var(--background);
+  position: sticky;
+  top:0;
+  z-index: 9999;
 /*  border-bottom: 1px solid #83a598;
   margin-top: 0px;
   height: 50px !important;*/
